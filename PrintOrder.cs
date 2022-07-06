@@ -9,6 +9,7 @@ Order Moment: {order.Moment}
 Order Status: {order.Status}
 Cliente: { order.ClientOrder.Name } ({order.ClientOrder.BirthDate.ToShortDateString()}) - {order.ClientOrder.Email}
 Order Client:
+Product | Unit Price | SubTotal
 ");
             foreach (var item in order.Items)
             {
